@@ -6,7 +6,7 @@ const APP = express();
 APP.use(express.json())
 APP.use(authRoute);
 
-const PORT = 3000;
+const PORT = 3001;
 const SERVER = "localhost"
 const MSG = `Servidor Online em ${SERVER}:${PORT}`
-APP.listen(PORT, () => console.log(MSG))
+APP.listen(PORT, () => console.log(MSG));
